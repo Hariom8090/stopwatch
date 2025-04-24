@@ -1,5 +1,4 @@
- <script>
-        let timerDisplay = document.querySelector('.timerDisplay');
+let timerDisplay = document.querySelector('.timerDisplay');
 let stopBtn =document.getElementById('stopBtn');
 let startBtn= document.getElementById('startBtn');
 let ResetBtn =document.getElementById('ResetBtn');
@@ -42,4 +41,3 @@ function startTimer(){
     timerDisplay.innerHTML = `${minsString}  : ${secsString}
      :${msecsString} `;
 }
-    </script>
